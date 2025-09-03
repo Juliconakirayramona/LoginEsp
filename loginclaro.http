@@ -1,0 +1,6 @@
+@loginclaro_HostAddress = http://localhost:5101
+
+GET {{loginclaro_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

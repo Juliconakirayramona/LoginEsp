@@ -1,0 +1,32 @@
+# Archivos de configuración de usuario de VS
+.vs/
+*.user
+*.suo
+
+# Compilados
+bin/
+obj/
+out/
+
+# Archivos temporales
+*.log
+*.tmp
+*.temp
+
+# Archivos de entorno
+.env
+
+# Archivos del sistema
+Thumbs.db
+desktop.ini
+
+# Archivos de publicación
+*.publish.xml
+
+# Paquetes
+packages/
+*.nupkg
+project.lock.json
+
+# Archivos de bloqueo y caché
+*.lock.json
