@@ -17,7 +17,7 @@ describe('AppComponent', () => {
   it(`should have the 'ngapi' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ngapi');
+    expect(app.message).toEqual('ngapi');
   });
 
   it('should render title', () => {

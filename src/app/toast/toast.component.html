@@ -1,0 +1,6 @@
+<div
+  class="toast"
+  *ngIf="toast.toastVisible"
+  [ngClass]="toast.toastColor === 'success' ? 'toast-success' : 'toast-error'">
+  {{ toast.toastMensaje }}
+</div>
