@@ -1,6 +1,6 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
-<<<<<<< HEAD
+
 	<PropertyGroup>
 		<TargetFramework>net8.0</TargetFramework>
 		<Nullable>enable</Nullable>
@@ -11,7 +11,6 @@
 		<PackageReference Include="Oracle.ManagedDataAccess.Core" Version="23.9.1" />
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
 	</ItemGroup>
-=======
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
@@ -23,6 +22,6 @@
     <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="23.9.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
->>>>>>> 5894c4cea8ca4aa51c09059a9684795f2d95a8f2
+
 
 </Project>
