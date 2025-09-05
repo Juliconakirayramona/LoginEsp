@@ -1,11 +1,11 @@
-﻿namespace loginclaro.modelos
+﻿using System;
+namespace loginclaro.modelos
 {
-    public class Materias
-    {
-        public int Id { get; set; }
-        public string? Nombre { get; set; }
-        public decimal Nota { get; set; }
-        public int EstudianteId { get; set; }
-        
-    }
+	public class Materias
+	{
+		public Int32 Id { get; set; }
+		public String Nombre { get; set; }
+		public Double Nota { get; set; }
+		public Int32 EstudianteId { get; set; }
+	}
 }

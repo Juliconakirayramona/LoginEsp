@@ -1,9 +1,9 @@
-﻿namespace loginclaro.modelos
+﻿using System;
+namespace loginclaro.modelos
 {
-    public class User
-    {
-        public string? Usuario { get; set; }
-        
-        public string? Password { get; set; }
-    }
+	public class User
+	{
+		public required String Usuario { get; set; }
+		public required String Password { get; set; }
+	}
 }
