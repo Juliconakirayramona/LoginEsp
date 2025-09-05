@@ -1,0 +1,13 @@
+<div class="form-container">
+  <h2>Agregar Estudiante</h2>
+  <form (ngSubmit)="agregar()">
+    <label for="nombre">Nombre:</label>
+    <input
+      type="text"
+      name="nombre"
+      [(ngModel)]="nombre"
+      required
+    />
+    <button style="background-color: #28a745; color: white; padding: 3px 5px; border-radius: 6px;" type="submit">Agregar</button>
+  </form>
+</div>

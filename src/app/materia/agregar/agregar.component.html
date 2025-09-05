@@ -1,0 +1,28 @@
+<div class="form-container">
+  <h2>Agregar Estudiante</h2>
+    <form (ngSubmit)="AgregarMateria()">
+      <label for="nombre">Nombre:</label>
+      <input
+        type="text"
+        name="nombre"
+        [(ngModel)]="Nombre"
+        required
+      />
+      <label for="nombre">Nota:</label>
+          <input
+        type="text"
+        name="Nota"
+        [(ngModel)]="Nota"
+        required
+      />
+      <label for="id">Estudiante Id:</label>
+            <input
+        type="text"
+        name="EstudianteId"
+        [(ngModel)]="EstudianteId"
+        required
+      />
+      <button style="background-color: #32b450; color: white; padding: 10px 20px; border-radius: 5px;" type="submit">Agregar</button>
+    </form>
+</div>
+

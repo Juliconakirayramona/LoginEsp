@@ -1,0 +1,23 @@
+<div class="form-container">
+  <h2>Calcular Promedio</h2>
+  <form (ngSubmit)="ConsultarP()">
+    <label for="nombre">Ingrese ID:</label>
+    <select
+      type="number"
+      name="estuid"
+      [(ngModel)]="estuid"
+      required
+    >
+    <option [ngValue]="null" disabled selected>-- Selecciona --</option>
+    <option *ngFor="let estudiante of estudiantes" [value]="estudiante.id">
+      {{ estudiante.id }}
+    </option>
+    </select>
+<button type="submit">Consultar</button>
+  </form>
+  <div *ngIf="promedios !== null">
+</div>
+<div *ngIf="error">
+  <p>{{ error }}</p>
+</div>
+</div>

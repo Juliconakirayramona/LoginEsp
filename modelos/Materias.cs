@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System;
 namespace loginclaro.modelos
 {
@@ -8,4 +9,16 @@ namespace loginclaro.modelos
 		public Double Nota { get; set; }
 		public Int32 EstudianteId { get; set; }
 	}
+=======
+﻿namespace loginclaro.modelos
+{
+    public class Materias
+    {
+        public int Id { get; set; }
+        public string? Nombre { get; set; }
+        public decimal Nota { get; set; }
+        public int EstudianteId { get; set; }
+        
+    }
+>>>>>>> 5894c4cea8ca4aa51c09059a9684795f2d95a8f2
 }
